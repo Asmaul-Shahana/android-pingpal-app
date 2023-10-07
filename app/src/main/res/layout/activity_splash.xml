@@ -9,31 +9,44 @@
     tools:context=".splash">
 
     <ImageView
-        android:id="@+id/logoBig"
-        android:layout_width="@dimen/_160sdp"
-        android:layout_height="@dimen/_84sdp"
+        android:id="@+id/banner"
+        android:layout_width="310dp"
+        android:layout_height="347dp"
+        android:foregroundGravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/av" />
+        app:srcCompat="@drawable/liquid_banner" />
+
+    <ImageView
+        android:id="@+id/logoSmall"
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477"
+        app:srcCompat="@drawable/logo_no_back" />
 
     <TextView
         android:id="@+id/tvAppName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/apptext"
+        android:fontFamily="@font/poppins_black"
         android:gravity="center"
 
-        android:text="Messenger App Name"
+        android:text="Talk the Talk,\n Anytime, Anywhere"
         android:textColor="@color/black"
-        android:textSize="@dimen/_20sdp"
+        android:textSize="@dimen/_16sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646" />
+        app:layout_constraintVertical_bias="0.778" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

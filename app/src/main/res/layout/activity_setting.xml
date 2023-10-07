@@ -26,6 +26,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
+        android:textColorHint="#A6A6A6"
         app:layout_constraintBottom_toTopOf="@+id/settingstatus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -40,6 +41,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="name"
+        android:textColorHint="#A6A6A6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -49,10 +51,11 @@
 
     <Button
         android:id="@+id/donebutt"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/violet"
         android:layout_width="@dimen/_100sdp"
         android:layout_height="@dimen/_35sdp"
         android:text="Save"
+        android:textColor="@color/white"
         app:cornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
