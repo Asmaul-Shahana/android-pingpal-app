@@ -15,8 +15,8 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profileimgg"
-            android:layout_width="@dimen/_80sdp"
-            android:layout_height="@dimen/_80sdp"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
             android:src="@drawable/photocamera"
             app:civ_border_color="@color/white"
             android:layout_marginTop="@dimen/_7sdp"
@@ -34,8 +34,8 @@
             android:text="@string/app_name"
             android:gravity="center"
             android:textColor="@color/black"
-            android:fontFamily="@font/poppins_regular"
-            android:textSize="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="@dimen/_30sdp"
             android:layout_margin="@dimen/_10sdp"/>
     </LinearLayout>
 
